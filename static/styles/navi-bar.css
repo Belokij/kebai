@@ -1,0 +1,90 @@
+.navi-bar {
+    width: 100%;
+    display: flex;
+    background-color: #cb0c0c;
+    font-size: 20px;
+}
+
+.navi-list {
+    display: flex;
+    font-size: 30px;
+
+}
+
+.navi-list a {
+    display: block;
+    padding: 1em;
+    text-decoration: none;
+    color: black;
+}
+
+.navi-list a:hover {
+    background-color: #ba0e0e;
+}
+
+.navi-btn {
+    display: none;
+}
+
+
+
+@media (max-width: 900px) {
+    .navi-btn {
+        font-size: 2em;
+        padding-inline: 10px;
+        padding-bottom: 3px;
+        border: none;
+        color: white;
+        background-color: #ba0e0e;
+        display: block;
+        cursor: pointer;
+    }
+    
+    .navi-list {
+        text-align: center;
+        display: none;
+    }
+
+    .navi-btn:hover{
+        background-color: rgb(255, 0, 0);
+    }
+    .drop:hover .navi-list{
+        display: block;
+        position: absolute;
+        right: 0px;
+        background-color: rgb(255, 0, 0);
+    }
+    .navi-bar{
+        justify-content: space-between;
+    }
+}
+
+#addToCart {
+
+    display: inline-block;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .add-to-cart-btn:hover {
+    background-color: #0062cc;
+  }
+
+
+
+.krepseli {
+    background-color: #38970d;
+    padding-top: 0px;
+    padding-left: 5px;
+    justify-content: center;
+    text-align: center;
+    font-size: 25px;
+}
+
+.krepseli:hover{
+    background-color: #4ac511;
+}
